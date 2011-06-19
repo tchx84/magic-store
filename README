@@ -1,5 +1,5 @@
 WHAT IS THIS:
-magic-store is a proof of concept for a stateless network filesystem.
+magic-store is a proof of concept for a LAN backup resource.
 
 DEPENDENCIES:
 1. fuse
