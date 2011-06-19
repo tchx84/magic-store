@@ -1,0 +1,14 @@
+[server]
+hostname: localhost
+port: 8080
+
+[magic_store]
+# use an absolute path
+magic_root: /home/tch/Devel/magic-store/server/root
+max_filesize: 2097152
+max_quota: 5242880
+
+[users]
+# user: password
+TCH00000001: 12345678-1234-5678-1234-567812345678
+TCH00000002: 12345678-1234-5678-1234-567812345679
