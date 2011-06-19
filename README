@@ -1,0 +1,28 @@
+DISCLAIMER:
+1. WARNING! DO NOT USE IN PRODUCTION ENVIRONMENTS: this is a only a proof of concept.
+2. The author takes no responsability for any damage that these scripts could cause.
+
+SERVER USAGE:
+1. copy server.config.example to server.config (in the same directory)
+2. edit server.config with your own configuration.
+   WARNING! use a EMPTY directory as magic_root.
+3. run python magic-server.py
+
+CLIENT USAGE:
+1. copy client.config.example to client.config (in the same directory)
+2. edit client.config to match server configuration.
+3. REMOVE client/mount/.gitignore file. Otherwise the client won't start.
+4. to mount use mount.sh.
+   WARNING! not NOT use the magic-client.py directly.
+5. to mount use umount.sh
+
+FEATURES:
+
+version 0.1:
+* network filesystem over xmlrpc.
+* virtual users.
+* virtual private directories.
+* virtual quota management.
+* maximum filesize filter.
+* directories and inodes cache.
+* sugar metadata cache!
