@@ -1,5 +1,5 @@
 WHAT IS THIS:
-magic-store is a proof of concept for a LAN backup resource.
+magic-store is a proof of concept for a files backup LAN resource.
 
 DEPENDENCIES:
 1. python (server and client)
