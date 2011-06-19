@@ -1,0 +1,7 @@
+[client]
+hostname: localhost
+port: 8080
+
+[user]
+username: TCH00000001
+password: 12345678-1234-5678-1234-567812345678
