@@ -2,8 +2,9 @@ WHAT IS THIS:
 magic-store is a proof of concept for a LAN backup resource.
 
 DEPENDENCIES:
-1. fuse
-2. fuse-python
+1. python (server and client)
+2. fuse (client only)
+3. fuse-python (client only)
 
 DISCLAIMER:
 1. WARNING! DO NOT USE IN PRODUCTION ENVIRONMENTS: this is a only a proof of concept.
