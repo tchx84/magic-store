@@ -33,3 +33,5 @@ version 0.1:
 * maximum filesize filter.
 * directories and inodes cache.
 * sugar metadata cache!
+* accessible from sugar-journal, gnome and other desktop envs.
+* decent behaviour when the server is unreachable.
