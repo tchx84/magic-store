@@ -196,7 +196,7 @@ def _load_config():
     PORT = int(config.get('client', 'port', 8080))
     print 'PORT %s' % PORT
 
-    USERNAME = config.get('user', 'username', '')
+    USERNAME = config.get('user', 'username', '').upper()
     print 'USERNAME %s' % USERNAME
     PASSWORD = config.get('user', 'password', '')
     print 'PASSWORD %s' % PASSWORD

@@ -223,7 +223,7 @@ class MagicStoreServer(SimpleXMLRPCServer):
     def _do_authenticate(self, params):
         global USERS
         username, password = params[:2]
-        if username.upper() not in USERS or \
+        if username not in USERS or \
             password != USERS.get(username, None):
                 print '_do_authentication %s rejected' % str(username)
                 raise ValueError
@@ -278,7 +278,7 @@ def _load_config():
     for user_data in config.items('users'):
         username, password = user_data[0].upper(), user_data[1]
         USERS[username] = password
-        print '_load_config user %s password %s' % (username, password)
+        print '_load_config username %s password %s' % (username, password)
 
 def main():
     _load_config()
